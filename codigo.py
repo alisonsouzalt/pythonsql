@@ -1,3 +1,7 @@
+
+
+#Antes de conectar ao banco digite no terminal: pip install mysql-connector-python
+
 import mysql.connector
 
 conexao = mysql.connector.connect(
@@ -16,10 +20,8 @@ cursor = conexao.cursor()
 # conexao.commit() - quando edita o banco de dados
 # resultado = cursor.fetchall() - lendo o banco de dados
 
+
 #------------------------------------------
-
-
-
     
 
 banco = 1
